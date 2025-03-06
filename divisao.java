@@ -18,7 +18,7 @@ public class divisao {
                 if(divisao != 0){
                     JOptionPane.showMessageDialog(null,"O resto dessa divisao nao é igual a zero.\nEncerrando o programa...", "Resultado", 0);
                 } else {
-                    JOptionPane.showMessageDialog(null, numerador +  " dividido por " + divisor + " é igua a " + numerador/divisor + " e resta " + divisao, "Divisao",0);
+                    JOptionPane.showMessageDialog(null, numerador +  " dividido por " + divisor + " é igua a " + numerador/divisor + " e resta " + divisao, "Divisao",1);
                 }
             
             }
